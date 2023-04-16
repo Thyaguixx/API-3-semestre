@@ -1,0 +1,280 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Knewave&family=Nunito:wght@400;600;700&display=swap');
+
+body, html {
+    font-family: Nunito, sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.PaginaUsuario{
+    width: 100vw;
+    height: 100vh;
+}
+
+/* INFO */
+.Informacoes {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.paragrafo1 {
+  font-family: Nunito, sans-serif;
+  margin-top: 61px;
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-left: 58px;
+  line-height: 29px;
+  font-weight: 500px;
+
+}
+
+.paragrafo2 {
+  margin-bottom: -10px;
+  width: 270px;
+  height: 26px;
+  margin-left: 58px;
+  margin-top: 16px;
+  font-family: Nunito, sans-serif;
+  line-height: 19px;
+  
+}
+
+.botaozao {
+  margin-top: 50px;
+  width: 270px;
+  height: 44px;
+  border: none;
+  margin-left: 26px;
+  background: #D9D9D9;
+  font-family: Nunito, sans-serif;
+  cursor: pointer;
+}
+
+
+
+
+/*NAVBAR*/
+
+.NavbarUser{
+  width: 100%;
+  height: 80px;
+  background-color: #D3D3D3;
+  font-family: Nunito, sans-serif;
+  display: flex;
+  z-index: 1;
+}
+
+.NavbarUser .ladoEsquerdoUser{
+  flex: 50%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.NavbarUser .ladoEsquerdoUser .logoUser{
+  max-height: 80px;
+}
+
+.NavbarUser .ladoEsquerdoUser .logoUser img{
+  width: 155px;
+  height: 55px;
+  margin-left: 20%;
+}
+
+.NavbarUser .ladoEsquerdoUser .separadorUser{
+  color: #888585;
+  font-size: 20px;
+  margin-left: 45px;
+  max-height: 80px;
+}
+
+.NavbarUser .ladoEsquerdoUser .txt1User{
+  font-weight: bold;
+  color: black;
+  font-size: 15px;
+  margin-left: 10px;
+  max-height: 80px;
+}
+
+.NavbarUser .ladoEsquerdoUser .txt2User{
+  color: rgb(49, 49, 49);
+  font-size: 15px;
+  margin-left: 3px;
+  max-height: 80px;
+}
+
+.NavbarUser .ladoDireitoUser{
+  flex: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.NavbarUser .ladoDireitoUser .dropdownUser{
+  max-height: 80px;
+}
+
+.NavbarUser .ladoDireitoUser .dropdownUser img{
+  height: 40px;
+  width: 60px;
+  margin-right: 10px;
+}
+
+.NavbarUser .ladoDireitoUser .dropdownUser:hover{
+  cursor: pointer;
+}
+
+.NavbarUser .ladoDireitoUser .dropdownUser .dropdownMenuUser{
+  position: absolute;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  z-index: 1;
+  display: none;
+  background-color: white;
+  left: 92%;
+  opacity: 1;
+}
+
+.NavbarUser .ladoDireitoUser .dropdownUser .dropdownMenuUser a{
+  text-decoration: none;
+  display: block;
+  padding: 5px 6px;
+  margin: 1px 1px 1px 1px;
+  color: black;
+}
+
+.NavbarUser .ladoDireitoUser .dropdownUser .dropdownMenuUser a:hover{
+  background-color: #f1f1f1;
+}
+
+.NavbarUser .ladoDireitoUser .dropdownUser:hover .dropdownMenuUser{
+  display: block;
+  opacity: 1;
+}
+
+/*FOOTER*/
+
+.FooterUser{
+  width: 100%;
+  height: 80px;
+  background-color: #D3D3D3;
+  font-family: Nunito, sans-serif;
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  z-index: 1;
+}
+
+.FooterUser .ladoEsquerdoUser{
+  flex: 50%;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.FooterUser .ladoEsquerdoUser .txt1User{
+  max-height: 80px;
+  font-size: 0.8rem;
+  color: #5B5858;
+  font-weight: bold;
+  margin-right: 200px;
+}
+
+.FooterUser .ladoEsquerdoUser .txt1User p{
+  display: block;
+  margin: 2px;
+}
+
+.FooterUser .ladoDireitoUser{
+  flex: 50%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.FooterUser .ladoDireitoUser .imgFacebookUser{
+  max-height: 80px;
+}
+
+.FooterUser .ladoDireitoUser .imgFacebookUser img{
+  width: 60px;
+  height: 50px;
+}
+
+.FooterUser .ladoDireitoUser .imgLinkedinUser{
+  max-height: 80px;
+}
+
+.FooterUser .ladoDireitoUser .imgLinkedinUser img{
+  width: 60px;
+  height: 50px;
+  margin-right: 6px;
+}
+
+.FooterUser .ladoDireitoUser .imgEmailUser{
+  max-height: 80px;
+}
+
+.FooterUser .ladoDireitoUser .imgEmailUser img{
+  width: 45px;
+  height: 40px;
+  margin-right: 11px;
+}
+
+.FooterUser .ladoDireitoUser .imgGitUser{
+  max-height: 80px;
+}
+
+.FooterUser .ladoDireitoUser .imgGitUser img{
+  width: 60px;
+  height: 40px;
+  margin-right: 60px;
+}
+
+/*Tabelas*/
+
+.containerTableDireitaUser .tableUser{
+  margin-left: 550px;
+  margin-right: 10px;
+  margin-top: -300px;
+  margin-bottom: -50px;
+  width: 850px;
+  z-index: 1;
+}
+
+.containerTableDireitaUser .tableUser table{
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 90%;
+}
+
+.containerTableDireitaUser .tableUser td, th {
+  border: 1px solid #DED5D5;
+  text-align: center;
+  padding: 8px;
+}
+
+.containerTableDireitaUser .tableUser td{
+  background-color: #F1F1F1;
+}
+
+.containerTableDireitaUser .tableUser th{
+  background-color: #413944;
+  color: white;
+}
+
+.containerTableDireitaUser .tableUser .mesclaUser{
+  background-color: #413944;
+}
+
+
+.containerTableDireitaUser .tableUser .nomeUser{
+  padding: 20px;
+}
+
+
+/*Responsividade*/
+
